@@ -1,5 +1,8 @@
 # eslint-config-ts-compat
 
+![Tests](https://github.com/sibiraj-s/eslint-config-ts-compat/workflows/Tests/badge.svg)
+![License](https://badgen.net/github/license/sibiraj-s/eslint-config-ts-compat)
+
 > Turns off all rules that conflicts with typescript-eslint
 
 ### Installation
