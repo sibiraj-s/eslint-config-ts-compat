@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ts-compat",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Turns off all rules that conflicts with typescript-eslint",
   "main": "index.js",
   "author": "sibiraj-s",
@@ -15,6 +15,9 @@
     "disable-rules",
     "eslint-rules",
     "eslint-rules-conflicts"
+  ],
+  "files": [
+    "index.js"
   ],
   "scripts": {
     "lint": "eslint . --ignore-path .gitignore",
