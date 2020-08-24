@@ -1,0 +1,6 @@
+extends:
+  - pegasus
+  - pegasus/node
+
+env:
+  jest: true

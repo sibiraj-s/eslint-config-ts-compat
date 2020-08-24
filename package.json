@@ -1,0 +1,31 @@
+{
+  "name": "eslint-config-ts-compat",
+  "version": "0.0.0",
+  "description": "Turns off all rules that conflicts with typescript-eslint",
+  "main": "index.js",
+  "author": "sibiraj-s",
+  "license": "MIT",
+  "repository": "https://github.com/sibiraj-s/eslint-config-ts-compat",
+  "bugs": "https://github.com/sibiraj-s/eslint-config-ts-compat/issues",
+  "homepage": "https://github.com/sibiraj-s/eslint-config-ts-compat",
+  "keywords": [
+    "eslint",
+    "typescript-eslint",
+    "rule-conflicts",
+    "disable-rules",
+    "eslint-rules",
+    "eslint-rules-conflicts"
+  ],
+  "scripts": {
+    "lint": "eslint . --ignore-path .gitignore",
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.9.1",
+    "@typescript-eslint/parser": "^3.9.1",
+    "eslint": "^7.7.0",
+    "eslint-config-pegasus": "^1.3.7",
+    "jest": "^26.4.2",
+    "typescript": "^3.9.7"
+  }
+}
