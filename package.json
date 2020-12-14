@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ts-compat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Turns off all rules that conflicts with typescript-eslint",
   "main": "index.js",
   "author": "sibiraj-s",
