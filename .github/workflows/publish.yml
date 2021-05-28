@@ -5,7 +5,7 @@ on:
     tags: v*
 
 env:
-  NODE_VERSION: 14
+  NODE_VERSION: 16
 
 jobs:
   publish:
@@ -22,26 +22,21 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
           registry-url: "https://registry.npmjs.org"
 
-      - name: Get yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
-
       - uses: actions/cache@v2
-        id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
         with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
-            ${{ runner.os }}-yarn-
+            ${{ runner.os }}-node-
 
       - run: node --version
-      - run: yarn --version
+      - run: npm --version
 
-      - name: Install Dependencies
-        run: yarn
+      - name: Install dependencies
+        run: npm ci
 
       - name: Run Tests
-        run: yarn test
+        run: npm run test
 
       - run: npm publish
         env:
