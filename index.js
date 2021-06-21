@@ -100,6 +100,11 @@ module.exports = {
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/return-await.md
     'no-return-await': 'off',
 
+    // disallow variable declarations from shadowing variables declared in the outer scope
+    // https://eslint.org/docs/rules/no-shadow
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-shadow.md
+    'no-shadow': 'off',
+
     // disallow throwing literals as exceptions
     // https://eslint.org/docs/rules/no-throw-literal
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-throw-literal.md
