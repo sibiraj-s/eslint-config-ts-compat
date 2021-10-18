@@ -2,5 +2,11 @@ extends:
   - pegasus
   - pegasus/node
 
-env:
-  jest: true
+overrides:
+  - files:
+      - test/fixtures/*.ts
+    parser: '@typescript-eslint/parser'
+    plugins:
+      - '@typescript-eslint'
+    extends:
+      - ts-compat
