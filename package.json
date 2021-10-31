@@ -27,8 +27,10 @@
     "prepare": "is-ci || husky install"
   },
   "devDependencies": {
+    "@commitlint/cli": "^13.2.1",
     "@typescript-eslint/eslint-plugin": "^5.2.0",
     "@typescript-eslint/parser": "^5.2.0",
+    "commitlint-config-non-conventional": "^1.0.0",
     "eslint": "^8.1.0",
     "eslint-config-pegasus": "^3.0.1",
     "husky": "^7.0.4",
