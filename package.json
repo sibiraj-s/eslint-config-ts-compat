@@ -23,8 +23,7 @@
   ],
   "scripts": {
     "lint": "eslint .",
-    "validate": "eslint . --ext .js,.ts",
-    "test": "npm run validate",
+    "test": "npm run lint",
     "prepare": "is-ci || husky"
   },
   "peerDependencies": {
