@@ -15,11 +15,15 @@ yarn add --dev eslint-config-ts-compat
 
 ### Usage
 
-```yml
-extends:
-  - airbnb-base
-  - ts-compat
-  - 'plugin:@typescript-eslint/recommended'
+```js
+import pegasus from 'eslint-config-pegasus';
+import tscompat from 'eslint-config-ts-compat';
+
+export default tseslint.config(
+  pegasus, // or your config
+  tscompat,
+  ...tseslint.configs.recommended,
+);
 ```
 
 ### Disabled rules

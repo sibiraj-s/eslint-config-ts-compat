@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   rules: {
     // enforce consistent brace style for blocks
     // https://eslint.org/docs/rules/brace-style
