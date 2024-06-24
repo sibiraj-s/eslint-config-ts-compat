@@ -86,11 +86,6 @@ export default {
     // https://eslint.org/docs/rules/no-invalid-this
     'no-invalid-this': 'off',
 
-    // disallow literal numbers that lose precision
-    // https://eslint.org/docs/rules/no-loss-of-precision
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-loss-of-precision.md
-    'no-loss-of-precision': 'off',
-
     // disallow magic numbers
     // https://eslint.org/docs/rules/no-magic-numbers
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-magic-numbers.md
