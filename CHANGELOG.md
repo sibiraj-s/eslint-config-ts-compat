@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## v2.0.0-rc.2 (2024-06-24)
+
+- fix typescript-eslint links to docs ([b7214b1](https://github.com/sibiraj-s/eslint-config-ts-compat/commit/b7214b1))
+- turn off more conflicting rules ([5f72423](https://github.com/sibiraj-s/eslint-config-ts-compat/commit/5f72423))
+- remove invalid rules ([ddf6a9d](https://github.com/sibiraj-s/eslint-config-ts-compat/commit/ddf6a9d))
+
 ## v2.0.0-rc.1 (2024-06-24)
 
 - add typings ([f01c072](https://github.com/sibiraj-s/eslint-config-ts-compat/commit/f01c072))
