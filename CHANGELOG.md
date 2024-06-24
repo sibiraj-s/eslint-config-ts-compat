@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## v2.0.0-rc.1 (2024-06-24)
+
+- add typings ([f01c072](https://github.com/sibiraj-s/eslint-config-ts-compat/commit/f01c072))
+
 ## v2.0.0-rc.0 (2024-06-24)
 
 - support eslint flat config ([f050f2e](https://github.com/sibiraj-s/eslint-config-ts-compat/commit/f050f2e))
