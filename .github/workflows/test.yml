@@ -11,7 +11,7 @@ env:
 
 jobs:
   test:
-    name: Jest
+    name: Eslint
     runs-on: ubuntu-latest
 
     steps:
