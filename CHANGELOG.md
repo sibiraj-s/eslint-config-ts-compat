@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## v2.0.0 (2024-08-08)
+
+- update typescript-eslint to v8 stable ([75046e7](https://github.com/sibiraj-s/eslint-config-ts-compat/commit/75046e7))
+
 ## v2.0.0-rc.2 (2024-06-24)
 
 - fix typescript-eslint links to docs ([b7214b1](https://github.com/sibiraj-s/eslint-config-ts-compat/commit/b7214b1))
